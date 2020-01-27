@@ -1,5 +1,10 @@
-html{
-
+html {
+  overflow-y: scroll;
   background-color: aliceblue
+}
 
+body {
+    margin: 8px auto;
+    background: aliceblue;
+    width: 700px;
 }
