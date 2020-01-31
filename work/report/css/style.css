@@ -1,9 +1,24 @@
 html {
     overflow-y: scroll;
+    background-color: #beb7a4;
+}
+
+h1 {
+    background-color: #ff3f00;
+    text-align: center;
 }
 
 body {
     margin: 8px auto;
-    background: #fff;
+    background: #beb7a4;
     width: 700px;
+}
+
+p {
+  background-color: #ff7f11;
+}
+
+table, th, td {
+  border: 1px solid black;
+  position: relative;
 }
