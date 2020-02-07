@@ -25,7 +25,7 @@
   });
 
 
-  init();
+  //init();
 
   function init() {
     setInterval(draw, 10);

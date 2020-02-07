@@ -1,0 +1,34 @@
+html {
+    overflow-y: scroll;
+    background-color: #beb7a4;
+}
+
+h1 {
+    background-color: #ff3f00;
+    text-align: center;
+}
+
+body {
+    margin: 8px auto;
+    background: #beb7a4;
+    width: 700px;
+}
+
+p {
+  background-color: #ff7f11;
+}
+
+table, th, td {
+  border: 1px solid black;
+  position: relative;
+}
+
+
+.goose {
+  width: 128px;
+  height: 80px;
+  background-image: url(../img/goose.png);
+  background-size: 128px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
