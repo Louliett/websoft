@@ -16,10 +16,12 @@ namespace webapp.Controllers
 
         public JsonFileAccountService AccountService { get; }
 
+
         [HttpGet]
-        public IEnumerable<Account> Get()
-        {
+        public IEnumerable<Account> Get() {
             return AccountService.GetAccounts();
         }
+
+
     }
 }
