@@ -230,7 +230,51 @@
 
     <section>
       <h2>S09</h2>
-      <p>Here is the text for this section.</p>
+      <p>
+        Since I started the Software Development course, gradualy I grew a concern. Which is
+        me as a programmer, being responsable for the secure data of an user. At stake
+        can be very sensitive and valuable data such as personal numbers, card numbers.
+        One example where I've witnesed a breach in my code, was with Java and SQL database.
+        After building an "unbreakable" login and registration screen in JavaFX connected
+        to MySQL, a colleague managed to login without being registred with just a bunch of characters.
+        That's when I learned to rely on parameterized queries instead of concatinating values inbetween string queries.
+        This was an example of Injection, the entry point of OWASP Top 10.
+      </p>
+      <p>
+        Since developing for web, means deploying your apps online, where other people can interact with your product,
+        web security should be takes seriously since there are thousands o people out there ready to exploit your app's
+        vulnerabilities.
+      </p>
+      <p>Some basic advices I would give, would be:
+        <br>
+        - Use HTTPS!!
+        <br>
+        A real case here, while developing the website project, we were using an online store
+        webpage as a template, which was using HTTP instead of HTTPS. Weeks later, we found accidentaly
+        that all the site was erased leaving the index page with a simple header saying something in Turkish.
+        <br>
+        - Digital Certificates are more trustworthy than just public keys!!
+        <br>
+        Less prone to middleware attacks.
+        <br>
+        - Limit the access to your server and api only to your domain!
+        <br>
+        You don't want your API act as a public API for your website.
+        <br>
+        - Store sensitive data as hashes in your databse.
+        <br>
+        - Never hesitate asking for help!!
+        <br>
+        I get it, you are a lone wolf, you think you can solve all the puzzles by yourself.
+        The truth is, you can't! No matter how good you are there are always people that know something you don't!
+        That's also the fun part of coding community, people are there to help you!
+      </p>
+      <p>
+        I learned about OWASP Top 10. I learned about ways hackers use dictionary attacks to break into accounts
+        and what measures shoud be taken. I would never assume that misconfigured HTTP headers can be exploited but
+        from what I've discovered, security misconfiguration is the most commonly seen issue.
+      </p>
+
     </section>
 
     <section>
